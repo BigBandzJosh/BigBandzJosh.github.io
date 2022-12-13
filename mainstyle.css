@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin:0;
+    padding: 0;
+    background-image:url(/Pictures/IMG_2513.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+     
+}
+.navbar{
+    display: block;
+    align-content: center;
+    height: 75px;
+    line-height: 75px;
+    background-color: #337DA6;
+    font-size: 20px;
+    
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.navbar li {
+    float: left;
+}
+.navbar li a{
+    display:inline-block;
+    text-align: center;
+    padding: 0 30px;
+    text-decoration: none;
+    color: #FFFFFA;
+}
+.navbar li a:hover{
+    background-color: #293132;
+    color: #FFFFFA;
+}
+.githubIcon{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    float: right;
+
+}
+
+
+.mainwrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFA;
+    height: 50vh;
+    width:50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.Hometitle{
+    text-align: center;
+    color: #337DA6;
+    font-size: 30px;
+    padding: 4%;
+}
+.intro {
+    text-align: center;
+    color:#293132;
+    font-size: 20px; 
+    padding: 4%;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: #337DA6;
+    text-align: center;
+    color: #FFFFFA;
+    font-size: 20px;
+    margin-top: auto;
+}
+@media only screen and (max-width: 600px) {
+    
+    .navbar{
+        height: 100px;
+        line-height: 100px;
+        background-color: #337DA6;
+        font-size: 17px;
+        
+    }
+    .navbar ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar li{
+        float: left;
+        padding-left: 6%;
+    }
+    .navbar li a{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar li a:hover{
+        background-color: #293132;
+        color: #FFFFFA;
+    }
+     
+    
+    .Icon {
+        width: 100%;
+        padding: 5%;
+    }
+    .mainwrapper{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFA;
+        height: 50vh;
+        width:100%;
+        margin-top: 5%;
+        border-radius: 10px;
+        
+    }
+    
+
+}
+
+

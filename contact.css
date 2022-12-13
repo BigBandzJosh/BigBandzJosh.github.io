@@ -1,0 +1,41 @@
+
+ .Container {
+    margin: 2rem;
+    border-radius: 8px;
+    background-color: #fffffa;
+      padding: 2rem;
+    
+ }
+ #contactinfo
+ {
+    color: black;
+    text-align: center;
+ }
+
+ label {
+    color: black;
+ }
+
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    resize: vertical;
+ }
+ textarea{
+    height: 200px;
+ }
+ input[type=submit]{
+    background-color:#337DA6;
+    color: #fffffa;
+    width: 25%;
+    height: 3rem;
+    cursor: pointer;
+ }
+   input[type=submit]:hover{
+      background-color: #293132;
+      color: #fffffa;
+   }
+   

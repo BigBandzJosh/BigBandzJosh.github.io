@@ -1,0 +1,45 @@
+
+.resumeCard{
+    overflow: scroll;
+}
+
+
+.resumeName {
+    margin-left: 3%;
+    padding-top: 2%;
+}
+.resumeInfo{
+    margin-left: 2%;
+    width: 50%;
+    font-size: 20px;
+}
+.contact{
+    float: right;
+    margin-right: 2%;
+}
+.contactinfo {
+    padding-bottom: 5%;
+    font-size: 20px;
+}
+
+.eduTitle{
+    margin-left: 5%;
+
+}
+
+.collegeTitle{
+    margin-left: 2%;
+    font-size: 20px;
+}
+.eduDates{
+    margin-left: 4%;
+    font-size: 16px;
+}
+.semesters{
+    margin-left: 2%;
+    font-size: 16px;
+}
+.semesterList, .skillList{
+    margin-left: 2%;
+    font-size: 18px;
+}

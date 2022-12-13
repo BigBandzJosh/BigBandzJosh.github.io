@@ -1,0 +1,20 @@
+
+ .resumeContainer{
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+     padding-bottom: 10px;
+     
+    
+     
+     
+ }
+ 
+ .resumeCard {
+     width: 50rem;
+     height: 700px;
+     background-color: #fffffa;
+     padding: 5px;
+     border-radius: 10px;
+     
+ }

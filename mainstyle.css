@@ -71,6 +71,15 @@ body{
     font-size: 30px;
     padding: 4%;
 }
+.Hometitle::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #337DA6;
+    margin-top: 2%;
+
+}
 .intro {
     text-align: center;
     color:#293132;

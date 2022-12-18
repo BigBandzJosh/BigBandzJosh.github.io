@@ -11,13 +11,23 @@ body{
     animation: SlideDown 1s ease-in-out;
     
 }
+.sticky + .outer{
+    margin-top: 60px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
 .inner{
     width: 50%;
     height: 50%;
     background-color: #fffffa;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
-    margin: 2%;
+    margin-bottom: 2%;
+    margin-top: 4%;
     opacity: 0.9;
     
 }

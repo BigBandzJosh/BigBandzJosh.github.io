@@ -10,7 +10,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -18,7 +17,7 @@ body{
 }
 .navbar{
     display: block;
-    align-content: center;
+    
     height: 75px;
     line-height: 75px;
     background-color: #337DA6;
@@ -50,20 +49,7 @@ body{
     height: 50px;
     padding: 10px;
     float: right;
-
 }
-@keyframes SlideInFromLeft {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
-    
-
-
-
 .mainwrapper{
     display:flex;
     flex-direction: column;
@@ -158,6 +144,15 @@ body{
     }
     
 
+}
+
+@keyframes SlideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 

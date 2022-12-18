@@ -8,6 +8,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: SlideDown 1s ease-in-out;
     
 }
 .inner{
@@ -24,7 +25,7 @@ body{
     text-align: center;
     color: #337DA6;
     font-size: 30px;
-    padding: 4%;
+    padding: 1%
     
 }  
 .inner h1::after{
@@ -41,7 +42,8 @@ body{
     text-align: center;
     color:#293132;
     font-size: 20px; 
-    padding: 2%;
+    padding: 4%;
+    padding-top: 5%;
     
     
 }
@@ -52,3 +54,13 @@ body{
         height: 100%;
     }
 }
+
+@keyframes SlideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+    

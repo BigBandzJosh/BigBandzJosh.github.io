@@ -61,6 +61,7 @@ body{
     margin-top: 5%;
     border-radius: 10px;
     animation: SlideInFromLeft 1s ease-in-out;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
     
 }
 .Hometitle{
@@ -154,5 +155,8 @@ body{
         transform: translateX(0);
     }
 }
+
+    
+
 
 
